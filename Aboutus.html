@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us</title>
+    <style>
+      /* Navigation bar styles */
+      #navbar {
+        background-color: #0084ff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      #navbar a {
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+      /* About Us page styles */
+      #about-us {
+        padding: 20px;
+        text-align: center;
+      }
+      #about-us h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      #about-us p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      #about-us h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      #about-us ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      #about-us li {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+#navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  position: relative;
+}
+#navbar a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: white;
+  transition: 0.4s ease-in;
+}
+#navbar a:hover::before {
+  width: 100%;
+  left: 0%;
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="until.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="aboutus.html">About Us
+      </a>
+    </div>
+    <div id="about-us">
+      <h1>About Us</h1>
+      <p>Welcome to our YouTube channel! We are a group of dedicated individuals who are passionate about creating high-quality and engaging video content. Our goal is to inform, entertain and educate our viewers through our videos.</p>
+      <h2>Our Team</h2>
+      <ul>
+        <li>John Doe - Creator and Host</li>
+        <li>Jane Doe - Director and Editor</li>
+        <li>Bob Smith - Camera Operator</li>
+      </ul>
+      <h2>Contact Us</h2>
+      <p>Email: info@yourchannel.com</p>
+      <p>Phone: 555-555-5555</p>
+      <p>Follow us on: 
+  <a href="https://www.instagram.com/yourchannel"> Instagram </a> | 
+  <a href="https://www.twitter.com/yourchannel"> Twitter </a> | 
+  <a href="https://www.facebook.com/yourchannel"> Facebook </a>
+  </p>
+    </div>
+  </body>
+</html>
